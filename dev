@@ -2,8 +2,8 @@
 lb01
 
 [webserver]
-app01
-app02
+app01 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+app02 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
 
 [database]
 db01
